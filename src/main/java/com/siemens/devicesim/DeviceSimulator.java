@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/device")
 public class DeviceSimulator {
 
 	@RequestMapping(method = RequestMethod.GET, path = "start")
