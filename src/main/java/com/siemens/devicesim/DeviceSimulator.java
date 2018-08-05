@@ -10,7 +10,7 @@ public class DeviceSimulator {
 
 	@RequestMapping(method = RequestMethod.GET, path = "start")
 	public String start() {
-		System.out.println("Device Started ...... ");
+		System.out.println("Device Started ......xxxxx ");
 		return "Started";
 	}
 
